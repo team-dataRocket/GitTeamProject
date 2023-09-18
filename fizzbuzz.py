@@ -1,4 +1,4 @@
-def fizz(num:int) :
+def fizzbuzz(num:int) :
     for i in range(1,num+1) :
         if i == 15 :
             print('fizzbuzz')
@@ -9,3 +9,6 @@ def fizz(num:int) :
                 print('buzz')
             else :
                 print(i)
+                
+if __name__ == '__main__' : 
+    fizzbuzz(15)
